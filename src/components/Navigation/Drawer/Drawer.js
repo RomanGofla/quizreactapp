@@ -1,4 +1,3 @@
-import { link } from 'fs-extra'
 import React, { Component } from 'react'
 import classes from './Drawer.module.css'
 
@@ -14,7 +13,7 @@ class Drawer extends Component {
                     <a>Link {link}</a>    
                 </li>
             )
-        }
+        })
     } 
     render() {
         return(
